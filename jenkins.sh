@@ -4,6 +4,5 @@ apt-get update
 wget -qO- https://get.docker.com/ | sh
 
 
-docker --version
-
+docker run --name myjenkins -d -p 8080:8080 -p 50000:50000 -v /var/jenkins_home  preetick/jenimg_2jul2015:v4
 
