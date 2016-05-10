@@ -1,2 +1,4 @@
 Add-Azureaccount
-aaaa
+
+
+get-azurevm
